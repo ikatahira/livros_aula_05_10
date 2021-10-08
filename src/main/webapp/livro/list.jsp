@@ -14,13 +14,13 @@
                 <th>ID</th>
                 <th>Título</th>
                 </tr>
-                <c: forEach var="l" items="${livros}">
+                <c:forEach var="l" items="${livros}">
                     <tr>
                         <td>${l.id}</td>
                         <td>${l.titulo}</td>
                     </tr>
 
-                </c:>
+                </c:forEach>
         </table>
 
         <h1>Lista de livros!!! Isaque Katahira</h1>
